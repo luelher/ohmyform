@@ -47,10 +47,13 @@
     "NPM_CONFIG_PRODUCTION": {
       "description": "Allow Dev Dependencies so we can compile typescript",
       "value": "false"
+    },
+    "MONGODB_URI": {
+      "description": "MongoDB database connection. Perhaps ",
+      "value": "mongodb://localhost/ohmyform"
     }
   },
   "addons": [
-    "mongolab",
     "heroku-redis",
     "mailtrap"
   ],
